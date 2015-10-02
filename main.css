@@ -1,0 +1,238 @@
+/**************
+General
+**************/
+
+body {
+  	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+  	text-decoration: none;
+}
+
+h3 {
+  	margin: 0 0 1em 0;
+}
+
+p {
+
+	line-height: 30px;
+}
+
+/********************
+HEADING
+********************/
+
+header {
+	 float: left;
+	 margin: 0 0 30px 0;
+	 padding: 5px 0 0 0;
+	 width: 100%;
+}
+
+#logo {
+	 text-align: left;
+	 margin: 0;
+}
+
+h1 {
+	 margin: 15px 0;
+	 font-size: 2.5em;
+	 font-weight: normal;
+	 line-height: 0.8em;
+}
+
+h2 {
+	 font-size: 1em;
+	 margin: -5px 0 0;
+	 font-weight: normal;
+}
+
+/********************
+Menu
+********************/
+
+.menu {
+	 text-align: center;
+	 padding: 0 5px 0;
+	 margin: 20px 0 0;
+}
+
+ul {
+
+	 list-style: top-right;
+	 margin: 0 10px;
+	 padding: 0;
+}
+
+ul li {
+	 display: inline-block;
+}
+
+ul li a {
+	 font-weight: 800;
+	 padding: 15px 10px;
+}
+
+/********************
+PAGE: About Me
+********************/
+
+body#about-me {
+	background-color: #FF3333;
+}
+
+body#about-me section{
+	color: blue;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/********************
+PAGE: NBA Basketball
+********************/
+
+body#nba-basketball {
+	background-color: yellow;
+	text-align: justify;
+}
+
+body#nba-basketball h3 {
+	text-align: center;
+}
+
+.basketball-photo {
+  display: block;
+  max-width: 60%;
+  margin: 0 auto 20px;
+}
+
+/********************
+PAGE: MLB Baseball
+********************/
+
+body#mlb-baseball {
+	background-color: rgb(0, 102, 255);
+	text-align: justify;
+	color: yellow;
+}
+
+body#mlb-baseball h3 {
+	text-align: center;
+}
+
+.baseball-photo {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto 30px;
+}
+
+/********************
+PAGE: NFL Football
+********************/
+
+body#nfl-football {
+	background-color: orange;
+	text-align: justify;
+	color: black;
+}
+
+body#nfl-football h3 {
+	text-align: center;
+	color: bold;
+}
+
+.football-photo {
+  display: inline-block;
+  max-width: 40%;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  padding: 20px 20px;
+}
+
+.incredible-catch-photo {
+  display: inline-block;
+  max-width: 40%;
+  margin: 0 auto 30px;
+}
+
+/**********************************
+PAGE: NCAA FBS Division 1 Football
+**********************************/
+
+body#ncaa-fbs-division-1-football {
+	background-color: #009900;
+	text-align: justify;
+}
+
+section#ncaa-fbs-division-1-football-primary h3 {
+	text-align: center;
+	color: blue;
+}
+
+section#ncaa-fbs-division-1-football-primary p {
+	color: yellow;
+}
+
+section#ncaa-fbs-division-1-football-secondary h3 {
+	text-align: center;
+	color: purple;
+}
+
+section#ncaa-fbs-division-1-football-secondary p {
+	color: #B8256E;
+}
+
+section#ncaa-fbs-division-1-football-tertiary h3 {
+	text-align: center;
+}
+
+section#ncaa-fbs-division-1-football-tertiary p {
+	color: yellow;
+}
+
+/*********************************
+PAGE: NCAA Division 1 Basketball
+*********************************/
+
+body#ncaa-division-1-basketball {
+	background-color: black;
+	text-align: justify;
+}
+
+body#ncaa-division-1-basketball h3 {
+	text-align: center;
+	color: red;
+}
+
+body#ncaa-division-1-basketball p {
+	color: red;
+	text-align: justify;
+}
+
+/**************
+Drop Down Menu
+**************/
+
+@media (min-width: 320px) and (max-width: 568px) {
+  .menu ul {
+    display:none;
+  }
+}
+
+@media (min-width: 568px) {
+  .menu select {
+    display:none;
+  }
+}
