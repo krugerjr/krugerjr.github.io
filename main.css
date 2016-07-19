@@ -264,7 +264,7 @@ table#facts th {
 	text-align: left;
 	padding: 15px;
 	background-color: white;
-	color: #FFFF00;
+	color: #000080;
 }
 
 table#facts td {
@@ -273,7 +273,7 @@ table#facts td {
 	vertical-align: top;
 	padding: 15px;
 	background-color: white;
-	color: #00FF00;
+	color: #008000;
 }
 
 /**************
