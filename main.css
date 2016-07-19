@@ -263,17 +263,17 @@ table#facts th {
 	height: 50px;
 	text-align: left;
 	padding: 15px;
-	background-color: #FFFF00;
-	color: white;
+	background-color: white;
+	color: #FFFF00;
 }
 
 table#facts td {
 	height: 50px;
 	text-align: left;
-	vertical-align: bottom;
+	vertical-align: top;
 	padding: 15px;
-	background-color: #00FF00;
-	color: white;
+	background-color: white;
+	color: #00FF00;
 }
 
 /**************
