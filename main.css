@@ -241,6 +241,41 @@ body#ncaa-division-1-basketball p {
   margin: 0 auto 30px;
 }
 
+/*********************************
+PAGE: Sports Facts
+*********************************/
+
+body#sports-facts h3 {
+	text-align: center;
+	color: red;
+}
+
+table#facts table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table#facts table, th, td {
+	border: 1px solid black;
+}
+
+table#facts th {
+	height: 50px;
+	text-align: left;
+	padding: 15px;
+	background-color: #FFFF00;
+	color: white;
+}
+
+table#facts td {
+	height: 50px;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 15px;
+	background-color: #00FF00;
+	color: white;
+}
+
 /**************
 Drop Down Menu
 **************/
