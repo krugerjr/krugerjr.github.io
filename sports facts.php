@@ -43,9 +43,9 @@ $facts = new PDO('mysql:host=http://localhost:8888/MAMP/index.php?page=phpmyadmi
 	              <th>College Basketball Facts</th>
 	              <th>NBA Facts</th>
 <?php
-function getMLBFact($facts) {
+function getMLBFact($conn) {
     $mlbFact = 'SELECT id, fact FROM mlb_facts ORDER BY id';
-    foreach ($facts->query($mlbFact) as $row) {
+    foreach ($conn->query($mlbFact) as $row) {
         print $row['id'] . "\t";
         print $row['fact'] . "\t";
     }
@@ -53,9 +53,9 @@ function getMLBFact($facts) {
 ?>
 
 <?php
-function getNFLFact($facts) {
+function getNFLFact($conn) {
     $nflFact = 'SELECT id, fact FROM nfl_facts ORDER BY id';
-    foreach ($facts->query($nflFact) as $row) {
+    foreach ($conn->query($nflFact) as $row) {
         print $row['id'] . "\t";
         print $row['fact'] . "\t";
     }
@@ -63,9 +63,9 @@ function getNFLFact($facts) {
 ?>
 
 <?php
-function getCollegeFootballFact($facts) {
+function getCollegeFootballFact($conn) {
     $collegeFootballFact = 'SELECT id, fact FROM college_football_facts ORDER BY id';
-    foreach ($facts->query($collegeFootballFact) as $row) {
+    foreach ($conn->query($collegeFootballFact) as $row) {
         print $row['id'] . "\t";
         print $row['fact'] . "\t";
     }
@@ -73,9 +73,9 @@ function getCollegeFootballFact($facts) {
 ?>
 
 <?php
-function getNHLFact($facts) {
+function getNHLFact($conn) {
     $nhlFact = 'SELECT id, fact FROM nhl_facts ORDER BY id';
-    foreach ($facts->query($nhlFact) as $row) {
+    foreach ($conn->query($nhlFact) as $row) {
         print $row['id'] . "\t";
         print $row['fact'] . "\t";
     }
@@ -83,9 +83,9 @@ function getNHLFact($facts) {
 ?>
 
 <?php
-function getCollegeBasketballFact($facts) {
+function getCollegeBasketballFact($conn) {
     $collegeBasketballFact = 'SELECT id, fact FROM college_basketball_facts ORDER BY id';
-    foreach ($facts->query($collegeBasketballFact) as $row) {
+    foreach ($conn->query($collegeBasketballFact) as $row) {
         print $row['id'] . "\t";
         print $row['fact'] . "\t";
     }
@@ -93,9 +93,9 @@ function getCollegeBasketballFact($facts) {
 ?>
 
 <?php
-function getNBAFact($facts) {
+function getNBAFact($conn) {
     $nbaFact = 'SELECT id, fact FROM nba_facts ORDER BY id';
-    foreach ($facts->query($nbaFact) as $row) {
+    foreach ($conn->query($nbaFact) as $row) {
         print $row['id'] . "\t";
         print $row['fact'] . "\t";
     }
