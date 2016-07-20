@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-$facts = new PDO('mysql:host=http://localhost:8888/MAMP/index.php?page=phpmyadmin&language=English;dbname=sports_facts', $user, $pass);
+$dbh = new PDO('mysql:host=http://localhost:8888/MAMP/index.php?page=phpmyadmin&language=English;dbname=sports_facts', $user, $pass);
 ?>
 
 <html>
