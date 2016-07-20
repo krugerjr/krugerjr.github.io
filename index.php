@@ -9,13 +9,13 @@
 	</head>
 	<body id="about-me">
 		<header>
-			<a href="index.html" id="logo">
+			<a href="index.php" id="logo">
 				<h1>Jordan Kruger</h1>
 				<h2>Sports Blogger</h2>
 			</a>
 			<div class="menu">
 	         <ul>
-	           <li class="selected"><a href="index.html">About Me</a></li>
+	           <li class="selected"><a href="index.php">About Me</a></li>
 	           <li><a href="nba basketball.html">NBA Basketball</a></li>
 	           <li><a href="mlb baseball.html">MLB Baseball</a></li>
 	           <li><a href="nfl football.html">NFL Football</a></li>
