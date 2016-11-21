@@ -241,6 +241,40 @@ body#ncaa-division-1-basketball p {
   margin: 0 auto 30px;
 }
 
+/**********************************
+PAGE: NHL Hockey
+**********************************/
+
+body#nhl-hockey {
+	background-color: white;
+	text-align: justify;
+}
+
+section#nhl-hockey-primary h3 {
+	text-align: center;
+	color: red;
+}
+
+section#nhl-hockey-primary p {
+	color: red;
+}
+
+section#nhl-hockey-secondary h3 {
+	text-align: center;
+	color: black;
+}
+
+section#nhl-hockey-secondary p {
+	color: black;
+}
+
+.nhlteams {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto 30px;
+}
+
+
 /*********************************
 PAGE: Sports Facts
 *********************************/
